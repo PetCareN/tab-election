@@ -31,7 +31,7 @@ var TABS_KEY = 'tab-tabs';
 var LEADER_KEY = 'tab-leader';
 
 
-var Tab = function Tab() {
+var Tab = function Tab(name) {
   this.id = createTabId();
   this.name = name;
   this.tab = { id: this.id };
