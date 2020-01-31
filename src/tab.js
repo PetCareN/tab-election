@@ -29,7 +29,7 @@ const LEADER_KEY = 'tab-leader';
 
 export default class Tab {
 
-  constructor() {
+  constructor(name) {
     this.id = createTabId();
     this.name = name;
     this.tab = { id: this.id };
